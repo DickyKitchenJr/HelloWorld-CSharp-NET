@@ -10,7 +10,19 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            var number = 2;
+            var count = 10;
+            var totalPrice = 20.95f;
+            var character = 'a'; //char uses single quotes
+            var firstName = "Dicky"; //string uses double quotes
+            var isWorking = true;
+
+            Console.WriteLine(number);
+            Console.WriteLine(count);
+            Console.WriteLine(totalPrice);
+            Console.WriteLine(character);
+            Console.WriteLine(firstName);
+            Console.WriteLine(isWorking);
         }
     }
 }
