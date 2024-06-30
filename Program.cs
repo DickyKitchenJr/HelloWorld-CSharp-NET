@@ -10,6 +10,28 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
         }
     }
 }
+
+//Notes:
+
+// variables are declared by giving it a type and then the name - 
+// int uno = 1;
+// you don't have to assign a variable an intial value, but you can't use it until you do initialize it
+
+// constants can be declared using the keyword const, then a type and name -
+// const int Dos = 2;
+// a const must have an initial value
+
+// common naming convention is camelCase for variable and PascalCase for constants
+
+// when declaring certain types, you must include a suffix to the value - 
+
+// float myFloat1 = 3.14f; - Specifying a float
+// double myDoubleExplicit = 3.14d;  - Explicitly specifying double (double is the default)
+// decimal myDecimal = 3.14m;  - Specifying a decimal
+// long myLong = 314L;  - Specifying a long
+// uint myUInt = 314u;  - Specifying an unsigned int
+// ulong myULong = 314ul;  - Specifying an unsigned long
